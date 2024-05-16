@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family:"Topaza1200";
+    src: url(../fonts/Topaz_a1200_v1.0.ttf);
+}
+
+body {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.mainContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainContainer--logo {
+    width: 300px;
+    height: 300px;
+    img {
+        /* background-image: url(resources/img/logo.jpg); */
+        background-size: cover;
+        background-position-x: 56%;
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+    }    
+}
+
+canvas {
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform:translate3d(-50%,-50%,0);
+}
+
