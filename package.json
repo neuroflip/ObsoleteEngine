@@ -8,6 +8,7 @@
     "build": "webpack --mode=production --node-env=production",
     "dev": "webpack --mode=development",
     "prod": "webpack --mode=production --node-env=production",
+    "deploy":"gh-pages -d dist",
     "watch": "webpack --watch",
     "serve": "webpack serve"
   },
@@ -29,5 +30,8 @@
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2",
     "workbox-webpack-plugin": "^6.1.5"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
